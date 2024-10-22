@@ -1,3 +1,24 @@
 .file-list{
 	display: inline-block;
 }
+body {
+	font-family: monospace;
+	background: #080808;
+	color: #dedede;
+	font-size: 125%;
+}
+h1, h2, h3 {
+	text-align: center;
+}
+a:link {
+	color: #408000;
+    transition: all 1s ease;
+	}
+a:visited {
+	color: #408000;
+	}
+a:hover, a:active {
+	color: #a3ff00;
+    transition: all 0.25s ease;
+    text-shadow: 0 0 8px #40ff00;
+	}
