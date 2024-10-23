@@ -1,5 +1,6 @@
 .file-list{
 	display: inline-block;
+	width: fit-content;
 }
 body {
 	font-family: monospace;
