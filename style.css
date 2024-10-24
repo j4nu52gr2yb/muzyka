@@ -14,12 +14,17 @@ h1, h2, h3 {
 a:link {
 	color: #408000;
     transition: all 1s ease;
-	}
+}
 a:visited {
 	color: #408000;
-	}
+}
 a:hover, a:active {
 	color: #a3ff00;
     transition: all 0.25s ease;
     text-shadow: 0 0 8px #40ff00;
-	}
+}
+table, th, td {
+	border: 1px solid #555555;
+	padding: 5px 5px;
+	table-layout: fixed;
+}
