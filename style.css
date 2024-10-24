@@ -11,6 +11,7 @@ table, th, td {
 	width: 99%;
 	padding: 0.5%;
 	table-layout: fixed;
+	overflow: auto;
 }
 body {
 	font-family: monospace;
