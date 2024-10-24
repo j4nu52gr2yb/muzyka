@@ -1,5 +1,5 @@
 #!/bin/bash
-yt-dlp -x --audio-format=opus $1 &&
+yt-dlp -x --audio-format=opus $1 -o "%(title)s.%(ext)s" &&
 filename=$(find . -maxdepth 1 -type f -name "*.opus" | sed -E "s/.\///")
 filename_url=$(echo $filename | sed "s/ /%20/g")
 sed_url=$(echo $1 | sed "s./.\\\/.g")
