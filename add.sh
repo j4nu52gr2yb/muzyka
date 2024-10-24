@@ -8,4 +8,12 @@ rm "$filename" &&
 filesize=$(du -sh temp.opus | cut -f1) &&
 mv temp.opus "./music/$filename" &&
 #mv *.opus ./music &&
-sed -i "s/<file-list>/<file-list>\n\t\t\t<tr><td><a href=https:\/\/raw.githubusercontent.com\/j4nu52gr2yb\/muzyka\/refs\/heads\/main\/music\/$filename_url>$filename<\/a><\/td><td><a href=$sed_url>$sed_url<\/a><\/td><td>$filesize<\/td><\/tr>/" index.html
+sed -i "s"/\
+"<file-list>"\
+"/"\
+"<file-list>\n\t\t\t"\
+"<tr>"\
+"<td><a href=https:\/\/raw.githubusercontent.com\/j4nu52gr2yb\/muzyka\/refs\/heads\/main\/music\/$filename_url>$filename<\/a><\/td>"\
+"<td><a href=$sed_url>$sed_url<\/a><\/td><td>$filesize<\/td>"\
+"<\/tr>"\
+"/" index.html
