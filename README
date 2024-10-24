@@ -1,0 +1,10 @@
+PLAYLISTA MUSIC 2.0
+skrypt nie dziala na windowsie
+chyba ze masz msys2 albo cygwina
+
+WYMAGANIA:
+bash
+yt-dlp
+ffmpeg
+sed
+i narzedzia unixowe (echo, find, du)
