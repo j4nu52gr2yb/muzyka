@@ -20,7 +20,7 @@ a:visited {
 }
 a:hover, a:active {
 	color: #a3ff00;
-    transition: all 0.25s ease;
+    transition: all 0.1s ease;
     text-shadow: 0 0 8px #40ff00;
 }
 table, th, td {
