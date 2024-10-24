@@ -7,4 +7,4 @@ bash
 yt-dlp
 ffmpeg
 sed
-i narzedzia unixowe
+i narzedzia unixowe (echo, find, du)
