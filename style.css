@@ -5,7 +5,7 @@
 	padding: 1%;
 }
 table, th, td {
-	border: 1px solid #555555;
+	border: 1px solid #666666;
 	background: #080808;
 	margin: auto;
 	width: 99%;
@@ -19,7 +19,7 @@ body {
 }
 main {
 	padding-bottom: 2.5rem;
-	background: #222222;
+	background: #161616;
 	margin: 10%;
 	margin-top: 1%;
 	outline-style: outset;
